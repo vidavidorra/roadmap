@@ -3,9 +3,8 @@ description: Proposal for a new project
 labels: [new, triage]
 body:
 - type: markdown
-  attributes:
-    value: |
-      Thank you for taking the time to fill out this project proposal!
+  value: |
+    Thank you for taking the time to fill out this project proposal!
 - type: dropdown
   label: What programming language will the project be in?
   options:
@@ -25,5 +24,6 @@ body:
   validations:
     required: true
 - type: input
-  label: Project name
-  description: What would be the name of the project?
+  attributes:
+    label: Project name
+    description: What would be the name of the project?
