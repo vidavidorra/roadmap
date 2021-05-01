@@ -8,7 +8,9 @@ body:
       Thank you for taking the time to fill out this project proposal!
 - type: dropdown
   attributes:
-    label: What programming language will the project be in?
+    label: Programming language(s)
+    description: What programming language(s) will the project be in?
+    multiple: true
     options:
       - C
       - C++
@@ -16,7 +18,8 @@ body:
       - TypeScript
 - type: textarea
   attributes:
-    label: Project description
+    label: Description
+    description: Please elaborate on the project.
   validations:
     required: true
 - type: textarea
