@@ -3,15 +3,17 @@ description: Proposal for a new project
 labels: [new, triage]
 body:
 - type: markdown
-  value: |
-    Thank you for taking the time to fill out this project proposal!
+  attributes:
+    value: |
+      Thank you for taking the time to fill out this project proposal!
 - type: dropdown
-  label: What programming language will the project be in?
-  options:
-    - C
-    - C++
-    - HTML
-    - TypeScript
+  attributes:
+    label: What programming language will the project be in?
+    options:
+      - C
+      - C++
+      - HTML
+      - TypeScript
 - type: textarea
   attributes:
     label: Project description
