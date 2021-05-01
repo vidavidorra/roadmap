@@ -1,6 +1,6 @@
 name: Project proposal
 description: Proposal for a new project
-labels: [new, triage]
+labels: [new project]
 body:
 - type: markdown
   attributes:
