@@ -1,0 +1,29 @@
+name: Project proposal
+description: Proposal for a new project
+labels: [new, triage]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for taking the time to fill out this project proposal!
+- type: dropdown
+  label: What programming language will the project be in?
+  options:
+    - C
+    - C++
+    - HTML
+    - TypeScript
+- type: textarea
+  attributes:
+    label: Project description
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Motivation
+    description: Why should this project be created?
+  validations:
+    required: true
+- type: input
+  label: Project name
+  description: What would be the name of the project?
